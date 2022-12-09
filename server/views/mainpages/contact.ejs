@@ -1,0 +1,63 @@
+<% include ../partials/header.ejs %>
+<% include ../partials/main_nav.ejs %>
+
+
+
+
+        <div class="content">
+          <div>
+            <p>My Email is : yzhou193@centennialcollege.ca</p>
+          </div>
+
+          <form id="contact_form">
+            <div >
+              <div>
+                <label for="fullName">Full Name</label>
+                <div>
+                  <div>
+                    <div><i class="fas fa-signature"></i></div>
+                  </div>
+                  <input type="text"  id="fullName" placeholder="Full Name" required>
+                </div>
+              </div>
+
+              <div>
+                <label for="email"></br></br>Email</label>
+                <div>
+                  <div >
+                    <div><i class="fas fa-at"></i></div>
+                  </div>
+                  <input type="email" id="email" placeholder="Email" required>
+                </div>
+              </div>
+
+              <div>
+                <label for="telNumber"></br></br>Phone Number</label>
+                <div>
+                  <div>
+                    <div><i class="fas fa-phone"></i></div>
+                  </div>
+                  <input type="text" id="telNumber" placeholder="Phone Number" required>
+                </div>
+              </div>
+
+              <div>
+              <div>
+                <label for="message"></br></br>Your Message (Optional)</label></div>
+                <div><textarea id="message" rows="3" cols="50"></textarea></div>
+              </div>
+            </div>
+            
+            <div class="form-row">
+                <button type="submit" id="sendButton"><i class="fas fa-paper-plane"></i> Send</button>
+                <button type="reset" id="cancelButton"><i class="fas fa-window-close"></i> Cancel</button>
+              
+            </div>
+
+          </form>
+        </div>
+
+
+
+
+<% include ../partials/footer.ejs %>

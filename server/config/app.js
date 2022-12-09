@@ -1,3 +1,12 @@
+/**--------------------------------------------------------
+ * File name: server.js
+ * Author: YINGJIE ZHOU
+ * StudentID: 301179194
+ * WebApp for COMP229Assign1
+ * Data: 2022/Dec/08
+ * --------------------------------------------------------
+ */
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');

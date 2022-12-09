@@ -37,3 +37,23 @@ body {
 .buffer{
     height: 100px;
 }
+
+div.content {
+    width: 75%; 
+    margin:auto;
+    word-wrap: normal;
+}
+div.left{
+    float:left;
+}
+div.right{
+    float:right;
+    margin: auto;
+}
+div.card{
+    display:inline;
+}
+
+img.card-img{
+    max-width: 100%;
+}
